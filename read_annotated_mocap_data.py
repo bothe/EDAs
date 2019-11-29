@@ -3,7 +3,7 @@ from collections import Counter
 from plot_utils.plot_functions import *
 from utils.read_annotated_data import read_data
 
-utt_Speaker, utt, utt_Emotion, utt_EDAs = read_data('annotated_eda_data/eda_iemocap_no_utts_dataset.csv')
+utt_speaker, utt, utt_emotion, utt_EDAs = read_data('Annotated_EDA_data/eda_iemocap_no_utts_dataset.csv')
 colors_emo = ['Green', 'Cyan', 'Blue', 'Black', 'Gray', 'Olive', 'Mediumvioletred', 'Orange', 'Red']
 emotions = ['hap', 'exc', 'sur', 'neu', 'xxx', 'fea', 'sad', 'fru', 'ang']
 colors_sent = ['Limegreen', 'Black', 'Darkorange']
@@ -24,7 +24,7 @@ for tag in tags:
     temp_emotion = []
     for i in range(len(utt)):
         if str(utt_EDAs[i]) == str(tag):
-            temp_emotion.append(utt_Emotion[i])
+            temp_emotion.append(utt_emotion[i])
     data_emotion = Counter(temp_emotion)
     values_emotion = []
     for emotion in emotions[0:9]:
