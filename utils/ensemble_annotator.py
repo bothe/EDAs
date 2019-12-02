@@ -34,7 +34,7 @@ def ensemble_eda_annotation(eda1, eda2, eda3, eda4, eda5,
                       'eda1', 'eda2', 'eda3', 'eda4', 'eda5', 'EDA',
                       'all_match', 'con_match', 'match']
 
-        store_meld_in_csv = open('annotated_eda_data/eda_' + file_name + '_dataset.csv', mode='w', newline='')
+        store_meld_in_csv = open('Annotated_EDA_data/eda_' + file_name + '_dataset.csv', mode='w', newline='')
         writer = csv.DictWriter(store_meld_in_csv, fieldnames=fieldnames)
         writer.writeheader()
 
