@@ -61,57 +61,59 @@ See bar graphs in figures: [IEMOCAP Emotion Bars](figures/iemocap_bars_emotion.p
 <details><summary>Click for Names and other statistics of annotated Dialogue Acts</summary>
 <p>
 <table>
-DA                    & Dialogue Act                & IEMO   & MELD   <br>
-
-sd                    & Statement-non-opinion       & 43.97  & 41.63  <br>
-
-sv                    & Statement-opinion           & 19.93  & 09.34  <br>
-
-qy                    & Yes-No-Question             & 10.3   & 12.39  <br>
-
-qw                    & Wh-Question                 &  7.26  & 6.08   <br>
-
-b                     & Acknowledge (Backchannel)   &  2.89  & 2.35   <br>
-
-ad                    & Action-directive            &  1.39  & 2.31   <br>
-
-fc                    & Conventional-closing        &  1.37  & 3.76   <br>
-
-ba                    & Appreciation or Assessment  &  1.21  & 3.72   <br>
-
-aa                    & Agree or Accept             &  0.97  & 0.50   <br>
-
-nn                    & No-Answer                   &  0.78  & 0.80   <br>
-
-ny                    & Yes-Answer                  &  0.75  & 0.88   <br>
-
-br                    & Signal-non-understanding    &  0.47  & 1.13   <br>
- 
-^q                    & Quotation                   &  0.37  & 0.81   <br>
-
-na                    & Affirmative non-yes answers &  0.25  & 0.34   <br>
-
-qh                    & Rhetorical-Question         &  0.23  & 0.12   <br>
-
-bh                    & Rhetorical Backchannel      &  0.16  & 0.30   <br>
-
-h                     & Hedge                       &  0.15  & 0.02   <br>
-
-qo                    & Open-question               &  0.14  & 0.10   <br>
-
-ft                    & Thanking                    &  0.13  & 0.23   <br>
-
-qy^d                  & Declarative Yes-No-Question &  0.13  & 0.29   <br>
-
-bf                    & Reformulate                 &  0.12  & 0.19   <br>
-
-fp                    & Conventional-opening        &  0.12  & 1.19   <br>
-
-fa                    & Apology                     &  0.07  & 0.04   <br>
-
-fo                    & Other Forward Function      &  0.02  & 0.05   <br>
-
-Total                 &                             & 10039  & 13708
+<tr>
+<th>DA                    </th> <th> Dialogue Act                </th> <th> IEMO   </th> <th> MELD   </th>
+</tr><tr>
+<td>sd                    </td> <td> Statement-non-opinion       </td> <td> 43.97  </td> <td> 41.63  </td>
+</tr><tr>
+<td>sv                    </td> <td> Statement-opinion           </td> <td> 19.93  </td> <td> 09.34  </td>
+</tr><tr>
+<td>qy                    </td> <td> Yes-No-Question             </td> <td> 10.3   </td> <td> 12.39  </td>
+</tr><tr>
+<td>qw                    </td> <td> Wh-Question                 </td> <td>  7.26  </td> <td> 6.08   </td>
+</tr><tr>
+<td>b                     </td> <td> Acknowledge (Backchannel)   </td> <td>  2.89  </td> <td> 2.35   </td>
+</tr><tr>
+<td>ad                    </td> <td> Action-directive            </td> <td>  1.39  </td> <td> 2.31   </td>
+</tr><tr>
+<td>fc                    </td> <td> Conventional-closing        </td> <td>  1.37  </td> <td> 3.76   </td>
+</tr><tr>
+<td>ba                    </td> <td> Appreciation or Assessment  </td> <td>  1.21  </td> <td> 3.72   </td>
+</tr><tr>
+<td>aa                    </td> <td> Agree or Accept             </td> <td>  0.97  </td> <td> 0.50   </td>
+</tr><tr>
+<td>nn                    </td> <td> No-Answer                   </td> <td>  0.78  </td> <td> 0.80   </td>
+</tr><tr>
+<td>ny                    </td> <td> Yes-Answer                  </td> <td>  0.75  </td> <td> 0.88   </td>
+</tr><tr>
+<td>br                    </td> <td> Signal-non-understanding    </td> <td>  0.47  </td> <td> 1.13   </td>
+</tr><tr>
+<td>^q                    </td> <td> Quotation                   </td> <td>  0.37  </td> <td> 0.81   </td>
+</tr><tr>
+<td>na                    </td> <td> Affirmative non-yes answers </td> <td>  0.25  </td> <td> 0.34   </td>
+</tr><tr>
+<td>qh                    </td> <td> Rhetorical-Question         </td> <td>  0.23  </td> <td> 0.12   </td>
+</tr><tr>
+<td>bh                    </td> <td> Rhetorical Backchannel      </td> <td>  0.16  </td> <td> 0.30   </td>
+</tr><tr>
+<td>h                     </td> <td> Hedge                       </td> <td>  0.15  </td> <td> 0.02   </td>
+</tr><tr>
+<td>qo                    </td> <td> Open-question               </td> <td>  0.14  </td> <td> 0.10   </td>
+</tr><tr>
+<td>ft                    </td> <td> Thanking                    </td> <td>  0.13  </td> <td> 0.23   </td>
+</tr><tr>
+<td>qy^d                  </td> <td> Declarative Yes-No-Question </td> <td>  0.13  </td> <td> 0.29   </td>
+</tr><tr>
+<td>bf                    </td> <td> Reformulate                 </td> <td>  0.12  </td> <td> 0.19   </td>
+</tr><tr>
+<td>fp                    </td> <td> Conventional-opening        </td> <td>  0.12  </td> <td> 1.19   </td>
+</tr><tr>
+<td>fa                    </td> <td> Apology                     </td> <td>  0.07  </td> <td> 0.04   </td>
+</tr><tr>
+<td>fo                    </td> <td> Other Forward Function      </td> <td>  0.02  </td> <td> 0.05   </td>
+</tr><tr>
+<td>Total                 </td> <td>                             </td> <td> 10039  </td> <td> 13708 </td>
+</tr>
 </table>
 Number of utterances per DA in respective datasets. 
 All values are in percentages (\%) of the total number of utterances. 
