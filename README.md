@@ -45,9 +45,7 @@ in the particular dialogue acts, please see the graph below from IEMOCAP EDAs:
 
 ![IEMOCAP Emotion](figures/iemocap_sankey_emotino_for_html.png)
 
-See [live plot](https://chart-studio.plot.ly/~bothe/3/) with Plot.ly
-
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~bothe/1.embed"></iframe>
+See live plot [IEMOCAP EDAs](https://chart-studio.plot.ly/~bothe/3/) thanks to Plot.ly
 
 or bar diagrams (as in the paper):
 
@@ -115,12 +113,13 @@ IE: IEMOCAP, ME: MELD Emotion and MS: MELD Sentiment.
 Number of utterances per DA in respective datasets. 
 All values are in percentages (\%) of the total number of utterances. 
 IEMO is for IEMOCAP.
-
 </p>
 </details>
 
-See bigger size graphs in figures: [IEMOCAP Emotion Sankey](figures/iemocap_sankey_emotion.png), 
-[MELD Emotion Sankey](figures/meld_sankey_emotion.png), and [MELD Sentiment Sankey](figures/meld_sankey_sentiment.png).
+See bigger size graphs in figures: 
+[IEMOCAP Emotion Sankey](https://chart-studio.plot.ly/~bothe/3), 
+[MELD Emotion Sankey](https://chart-studio.plot.ly/~bothe/7), and 
+[MELD Sentiment Sankey](https://chart-studio.plot.ly/~bothe/11).
 
 See bar graphs in figures: [IEMOCAP Emotion Bars](figures/iemocap_bars_emotion.png), 
 [MELD Emotion Bars](figures/meld_bars_emotion.png), and [MELD Sentiment Bars](figures/meld_bars_sentiment.png).
