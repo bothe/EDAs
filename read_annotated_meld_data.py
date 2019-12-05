@@ -7,8 +7,8 @@ utt_speaker, utt, utt_emotion, utt_EDAs, utt_sentiment = read_data('Annotated_ED
                                                                    meld_data=True)
 colors_emo = ['Green', 'Blue', 'Black', 'Olive', 'Mediumvioletred', 'Orange', 'Red', 'Brown']
 emotions = ['joy', 'surprise', 'neutral', 'fear', 'sadness', 'disgust', 'anger']
-colors_sent = ['Limegreen', 'Black', 'Red', 'White']
-sentiments = ['positive', 'neutral', 'negative', 'White']
+colors_sent = ['Green', 'Black', 'Red', 'Brown']
+sentiments = ['positive', 'neutral', 'negative']
 
 tags = sorted(list(Counter(utt_EDAs).keys()))
 

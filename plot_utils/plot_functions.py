@@ -128,15 +128,15 @@ def plotting_sankeys(colors_emo, emotions, selected_bars, selected_bars_normaliz
             value_norms.append(selected_bars_normalized[i][j])
             color_links.append(colors_emo[j])
     plotter_sankey(label, color, source, target, value, color_links, data +
-                   " - " + type_of + " - with real values")
+                   " - " + type_of + " - with real number of utterances")
     plotter_sankey(label, color, source, target, value_norms, color_links, data +
-                   " - " + type_of + " - with normalized values")
+                   " - " + type_of + " - with normalized number of utterances")
 
 
 def plotter_sankey(label, color, source, target, value, color_links, title):
     import plotly.graph_objects as go
     fig = go.Figure(data=[go.Sankey(
-        node=dict(pad=15, thickness=20, line=dict(color="green", width=0.), label=label, color=color),
+        node=dict(pad=3, thickness=15, line=dict(color="green", width=0.), label=label, color=color),
         link=dict(source=source, target=target, value=value, color=color_links))])
-    fig.update_layout(title_text=title, font_size=10)
+    fig.update_layout(title_text=title, font_size=14)
     fig.show()
