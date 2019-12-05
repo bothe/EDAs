@@ -128,7 +128,7 @@ The pre-print of the article (submitted to LREC 2020) explaining these datasets 
 https://arxiv.org/abs/1912.00819
 
 ## Acknowledgement  
-This work has been performed as a part of SECURE EU Project 
+This work has been performed as part of the SECURE EU Project 
 
 https://secure-robots.eu/fellows/bothe/eda/
 
