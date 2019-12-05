@@ -45,6 +45,8 @@ in the particular dialogue acts, please see the graph below from IEMOCAP EDAs:
 
 ![IEMOCAP Emotion](figures/iemocap_sankey_emotino_for_html.png)
 
+See [live plot](https://chart-studio.plot.ly/~bothe/3/) with Plot.ly
+
 or bar diagrams (as in the paper):
 
 ![All Combined Bars for IEMOCAP and MELD](figures/bar_diagrams.png)
