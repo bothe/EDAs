@@ -60,35 +60,9 @@ See bar graphs in figures: [IEMOCAP Emotion Bars](figures/iemocap_bars_emotion.p
 
 <details><summary>Click for Names and other statistics of annotated Dialogue Acts</summary>
 <p>
-<html>
-<head>
-<title>LaTeX4Web 1.4 OUTPUT</title>
-<style type="text/css">
-<!--
- body {color: black;  background:"#FFCC99";  }
- div.p { margin-top: 7pt;}
- td div.comp { margin-top: -0.6ex; margin-bottom: -1ex;}
- td div.comb { margin-top: -0.6ex; margin-bottom: -.6ex;}
- td div.norm {line-height:normal;}
- td div.hrcomp { line-height: 0.9; margin-top: -0.8ex; margin-bottom: -1ex;}
- td.sqrt {border-top:2 solid black;
-          border-left:2 solid black;
-          border-bottom:none;
-          border-right:none;}
- table.sqrt {border-top:2 solid black;
-             border-left:2 solid black;
-             border-bottom:none;
-             border-right:none;}
--->
-</style>
-</head>
-<body>
-\begintable[!t]
-\begincenter
-\begintabularllll
+<table>
 DA                    & Dialogue Act                & IEMO   & MELD   <br>
 
-\hline
 sd                    & Statement-non-opinion       & 43.97  & 41.63  <br>
 
 sv                    & Statement-opinion           & 19.93  & 09.34  <br>
@@ -113,7 +87,7 @@ ny                    & Yes-Answer                  &  0.75  & 0.88   <br>
 
 br                    & Signal-non-understanding    &  0.47  & 1.13   <br>
  
-\textasciicircumq   & Quotation                   &  0.37  & 0.81   <br>
+^q                    & Quotation                   &  0.37  & 0.81   <br>
 
 na                    & Affirmative non-yes answers &  0.25  & 0.34   <br>
 
@@ -127,7 +101,7 @@ qo                    & Open-question               &  0.14  & 0.10   <br>
 
 ft                    & Thanking                    &  0.13  & 0.23   <br>
 
-qy\textasciicircumd & Declarative Yes-No-Question &  0.13  & 0.29   <br>
+qy^d                  & Declarative Yes-No-Question &  0.13  & 0.29   <br>
 
 bf                    & Reformulate                 &  0.12  & 0.19   <br>
 
@@ -137,16 +111,11 @@ fa                    & Apology                     &  0.07  & 0.04   <br>
 
 fo                    & Other Forward Function      &  0.02  & 0.05   <br>
 
-\hline
 Total                 &                             & 10039  & 13708
-\endtabular
-<font face=symbol>Ç</font>tionNumber of utterances per DA in respective datasets. All values are in percentages (\%) of the total number of utterances. 
+</table>
+Number of utterances per DA in respective datasets. 
+All values are in percentages (\%) of the total number of utterances. 
 IEMO is for IEMOCAP.
-<a name="reftable:EDA_stats_all">
-
-\endcenter
-\endtable</body>
-</html>
 
 </p>
 </details>
