@@ -123,7 +123,10 @@ See bar graphs in figures: [IEMOCAP Emotion Bars](figures/iemocap_bars_emotion.p
 
 **These graphs can be generated using ```read_annotated_..._data.py``` applications**
 
-## Paper
+## Paper: Automated Neural Ensemble Annotation and Evaluation
+
+"Enriching Existing Conversational Emotion Datasets with Dialogue Acts using Neural Annotators"
+
 The pre-print of the article (submitted to LREC 2020) explaining these datasets can be found at - 
 https://arxiv.org/abs/1912.00819
 
