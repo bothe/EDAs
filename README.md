@@ -58,7 +58,7 @@ See bigger size graphs in figures: [IEMOCAP Emotion Sankey](figures/iemocap_sank
 See bar graphs in figures: [IEMOCAP Emotion Bars](figures/iemocap_bars_emotion.png), 
 [MELD Emotion Bars](figures/meld_bars_emotion.png), and [MELD Sentiment Bars](figures/meld_bars_sentiment.png).
 
-<details><summary>Click for Names and other statistics of annotated Dialogue Acts</summary>
+<details><summary><b>Click for Names and statistics of annotated Dialogue Acts in EDAs</b></summary>
 <p>
 <table>
 <tr>
