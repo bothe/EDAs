@@ -125,7 +125,7 @@ See bar graphs in figures: [IEMOCAP Emotion Bars](figures/iemocap_bars_emotion.p
 
 ## Paper: Automated Neural Ensemble Annotation and Evaluation
 
-"Enriching Existing Conversational Emotion Datasets with Dialogue Acts using Neural Annotators"
+_"Enriching Existing Conversational Emotion Datasets with Dialogue Acts using Neural Annotators"_
 
 The pre-print of the article (submitted to LREC 2020) explaining these datasets can be found at - 
 https://arxiv.org/abs/1912.00819
