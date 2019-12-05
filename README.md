@@ -36,6 +36,16 @@ Neutral, Surprise and Fear.
 - Fine-grained Dimensional Emotions: Valence, Arousal and Dominance.
 
 
+## Analysis on EDAs
+
+Our analysis on EDAs reveal association between 
+dialogue acts and emotional states in natural-conversational language. 
+Please see the graph below:
+
+![Meld Emotion](figures/meld_sankey_emotion.png)
+
+
+
 ## Paper
 The paper explaining these dataset can be found - https://arxiv.org/pdf/xxxx.xxxxx.pdf
 (will be available soon)
