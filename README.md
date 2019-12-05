@@ -127,8 +127,10 @@ See bar graphs in figures: [IEMOCAP Emotion Bars](figures/iemocap_bars_emotion.p
 The pre-print of the article (submitted to LREC 2020) explaining these datasets can be found at - 
 https://arxiv.org/abs/1912.00819
 
-## Download the final annotated data
-Please visit - https://secure-robots.eu/fellows/bothe/eda/ to download the data.
+## Acknowledgement  
+This work has been performed as a part of SECURE EU Project 
+
+https://secure-robots.eu/fellows/bothe/eda/
 
 ## Description of the .csv files
 
