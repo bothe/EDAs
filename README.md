@@ -42,9 +42,18 @@ Our analysis on EDAs reveal association between
 dialogue acts and emotional states in natural-conversational language. 
 Please see the graph below from IEMOCAP EDAs:
 
-![IEMOCAP Emotion](figures/iemocap_sankey_emotion.png)
+![IEMOCAP Emotion](figures/iemocap_sankey_emotino_for_html.png)
+
+or bar diagrams (as in paper):
+
+![All Combined Bars for IEMOCAP and MELD](figures/bar_diagrams.png)
 
 
+See bigger size graphs in figures: [IEMOCAP Emotion Sankey](figures/iemocap_sankey_emotion.png), 
+[MELD Emotion Sankey](figures/meld_sankey_emotion.png), and [MELD Sentiment Sankey](figures/meld_sankey_sentiment.png).
+
+See bar graphs in figures: [IEMOCAP Emotion Bars](figures/iemocap_bars_emotion.png), 
+[MELD Emotion Bars](figures/meld_bars_emotion.png), and [MELD Sentiment Bars](figures/meld_bars_sentiment.png).
 
 ## Paper
 The pre-print of the article (submitted to LREC 2020) explaining these dataset can be found at - 
