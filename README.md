@@ -40,16 +40,15 @@ Neutral, Surprise and Fear.
 
 Our analysis on EDAs reveal association between 
 dialogue acts and emotional states in natural-conversational language. 
-Please see the graph below from IEMOCAP EDAs:
+Visualizing co-occurrence of utterances with emotion states 
+in the particular dialogue acts, please see the graph below from IEMOCAP EDAs:
 
 ![IEMOCAP Emotion](figures/iemocap_sankey_emotino_for_html.png)
 
-or bar diagrams (as in paper):
+or bar diagrams (as in the paper):
 
 ![All Combined Bars for IEMOCAP and MELD](figures/bar_diagrams.png)
 
-Visualizing occurrence of utterances with respect to emotion states 
-in the particular dialogue acts. 
 IE: IEMOCAP, ME: MELD Emotion and MS: MELD Sentiment.
 
 **These graphs can be generated using ```read_annotated_..._data.py``` applications**
