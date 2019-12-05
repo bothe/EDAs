@@ -5,8 +5,8 @@ from utils.read_annotated_data import read_data
 
 utt_speaker, utt, utt_emotion, utt_EDAs, utt_sentiment = read_data('Annotated_EDA_data/eda_meld_emotion_dataset.csv',
                                                                    meld_data=True)
-colors_emo = ['Green', 'Blue', 'Black', 'Olive', 'Mediumvioletred', 'Orange', 'Red', 'White']
-emotions = ['joy', 'surprise', 'neutral', 'fear', 'sadness', 'disgust', 'anger', 'White']
+colors_emo = ['Green', 'Blue', 'Black', 'Olive', 'Mediumvioletred', 'Orange', 'Red', 'Brown']
+emotions = ['joy', 'surprise', 'neutral', 'fear', 'sadness', 'disgust', 'anger']
 colors_sent = ['Limegreen', 'Black', 'Red', 'White']
 sentiments = ['positive', 'neutral', 'negative', 'White']
 
@@ -41,10 +41,12 @@ for tag in tags:
 
 # save stacked bar graph for Emotion MELD
 plot_bars_plot(stack_emotions_values, emotions, colors_emo, tags,
-               test_show_plot=False, data='meld', type_of='emotion')  # , save_eps=True) # , save_svg=True)
+               test_show_plot=False, data='meld', type_of='emotion', plot_sankeys=True)
+# , save_eps=True) # , save_svg=True)
 
 # save stacked bar graph for Sentiment MELD
 plot_bars_plot(stack_sentiments_values, sentiments, colors_sent, tags,
-               test_show_plot=False, data='meld', type_of='sentiment')  # , save_eps=True) # , save_svg=True)
+               test_show_plot=False, data='meld', type_of='sentiment', plot_sankeys=True)
+# , save_eps=True) # , save_svg=True)
 
 print('ran read_annotated_meld_data.py')

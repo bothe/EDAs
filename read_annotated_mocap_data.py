@@ -4,7 +4,7 @@ from plot_utils.plot_functions import *
 from utils.read_annotated_data import read_data
 
 utt_speaker, utt, utt_emotion, utt_EDAs = read_data('Annotated_EDA_data/eda_iemocap_no_utts_dataset.csv')
-colors_emo = ['Green', 'Cyan', 'Blue', 'Black', 'Gray', 'Olive', 'Mediumvioletred', 'Orange', 'Red']
+colors_emo = ['Green', 'Cyan', 'Blue', 'Black', 'Gray', 'Olive', 'Mediumvioletred', 'Orange', 'Red', 'Brown']
 emotions = ['hap', 'exc', 'sur', 'neu', 'xxx', 'fea', 'sad', 'fru', 'ang']
 colors_sent = ['Limegreen', 'Black', 'Darkorange']
 sentiments = ['positive', 'neutral', 'negative']
@@ -34,6 +34,6 @@ for tag in tags:
 
 # save stacked bar graph for Emotion IEMOCAP
 plot_bars_plot(stack_emotions_values, emotions[0:9], colors_emo, tags,
-               test_show_plot=False, data='iemocap', type_of='emotion')  # , save_eps=True)
+               test_show_plot=False, data='iemocap', type_of='emotion', plot_sankeys=True)  # , save_eps=True)
 
 print('ran read_annotated_mocap_data.py')
