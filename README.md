@@ -42,6 +42,9 @@ Our analysis on EDAs reveal association between
 dialogue acts and emotional states in natural-conversational language. 
 Visualizing co-occurrence of utterances with emotion states 
 in the particular dialogue acts, please see the graph below from IEMOCAP EDAs:
+<figure class="video_container">
+<iframe src="//plot.ly/~bothe/3.embed"></iframe>
+</figure>
 
 ![IEMOCAP Emotion](figures/iemocap_sankey_emotino_for_html.png)
 
