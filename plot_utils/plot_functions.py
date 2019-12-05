@@ -133,10 +133,16 @@ def plotting_sankeys(colors_emo, emotions, selected_bars, selected_bars_normaliz
                    " - " + type_of + " - with normalized number of utterances")
 
 
-def plotter_sankey(label, color, source, target, value, color_links, title):
+def plotter_sankey(label, color, source, target, value, color_links, title, create_html=False, host_online=False):
     import plotly.graph_objects as go
     fig = go.Figure(data=[go.Sankey(
         node=dict(pad=3, thickness=15, line=dict(color="green", width=0.), label=label, color=color),
         link=dict(source=source, target=target, value=value, color=color_links))])
     fig.update_layout(title_text=title, font_size=14)
     fig.show()
+    if create_html:
+        import plotly.io as pio
+        pio.write_html(fig, file='figures/' + title + '.html', auto_open=True)
+    if host_online:
+        import chart_studio.plotly as py
+        py.iplot(fig, filename=title)

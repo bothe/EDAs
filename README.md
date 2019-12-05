@@ -1,4 +1,4 @@
-# EDA: Emotional Dialogue Act Data
+# EDAs: Emotional Dialogue Acts Corpus
 
 ----------------------------------------------------
 
@@ -133,7 +133,7 @@ https://arxiv.org/abs/1912.00819
 ## Acknowledgement  
 This work has been performed as part of the SECURE EU Project 
 
-https://secure-robots.eu/fellows/bothe/eda/
+https://secure-robots.eu/fellows/bothe/EDAs/
 
 ## Description of the .csv files
 
