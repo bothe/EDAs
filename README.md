@@ -51,16 +51,7 @@ or bar diagrams (as in the paper):
 
 IE: IEMOCAP, ME: MELD Emotion and MS: MELD Sentiment.
 
-**These graphs can be generated using ```read_annotated_..._data.py``` applications**
-
-
-See bigger size graphs in figures: [IEMOCAP Emotion Sankey](figures/iemocap_sankey_emotion.png), 
-[MELD Emotion Sankey](figures/meld_sankey_emotion.png), and [MELD Sentiment Sankey](figures/meld_sankey_sentiment.png).
-
-See bar graphs in figures: [IEMOCAP Emotion Bars](figures/iemocap_bars_emotion.png), 
-[MELD Emotion Bars](figures/meld_bars_emotion.png), and [MELD Sentiment Bars](figures/meld_bars_sentiment.png).
-
-<details><summary><b>Click for Names and statistics of annotated Dialogue Acts in EDAs</b></summary>
+<details><summary><b>Click for the Names and statistics of annotated Dialogue Acts in EDAs</b></summary>
 <p>
 <table>
 <tr>
@@ -124,18 +115,22 @@ IEMO is for IEMOCAP.
 </p>
 </details>
 
+See bigger size graphs in figures: [IEMOCAP Emotion Sankey](figures/iemocap_sankey_emotion.png), 
+[MELD Emotion Sankey](figures/meld_sankey_emotion.png), and [MELD Sentiment Sankey](figures/meld_sankey_sentiment.png).
+
+See bar graphs in figures: [IEMOCAP Emotion Bars](figures/iemocap_bars_emotion.png), 
+[MELD Emotion Bars](figures/meld_bars_emotion.png), and [MELD Sentiment Bars](figures/meld_bars_sentiment.png).
+
+**These graphs can be generated using ```read_annotated_..._data.py``` applications**
+
 ## Paper
 The pre-print of the article (submitted to LREC 2020) explaining these datasets can be found at - 
 https://arxiv.org/abs/1912.00819
 
-
-
 ## Download the final annotated data
 Please visit - https://secure-robots.eu/fellows/bothe/eda/ to download the data.
 
-
 ## Description of the .csv files
-
 
 ### The files
 - ```annotated_eda_data/eda_iemocap_no_utts_dataset.csv``` - contains the EDAs in IEMOCAP data, without utterances.
