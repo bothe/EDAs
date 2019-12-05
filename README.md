@@ -52,6 +52,9 @@ Visualizing occurrence of utterances with respect to emotion states
 in the particular dialogue acts. 
 IE: IEMOCAP, ME: MELD Emotion and MS: MELD Sentiment.
 
+**These graphs can be generated using ```read_annotated_..._data.py``` applications**
+
+
 See bigger size graphs in figures: [IEMOCAP Emotion Sankey](figures/iemocap_sankey_emotion.png), 
 [MELD Emotion Sankey](figures/meld_sankey_emotion.png), and [MELD Sentiment Sankey](figures/meld_sankey_sentiment.png).
 
@@ -135,6 +138,13 @@ Please visit - https://secure-robots.eu/fellows/bothe/eda/ to download the data.
 ## Description of the .csv files
 
 
+### The files
+- ```annotated_eda_data/eda_iemocap_no_utts_dataset.csv``` - contains the EDAs in IEMOCAP data, without utterances.
+- ```annotated_eda_data/eda_meld_emotion_dataset.csv``` - contains the EDAs in meld data, they are staked (train, dev, test).
+
+### What else there in the files... 
+<details><summary><b>Click for understanding the csv files</b></summary>
+<p>
 
 | Column Name  | Description                                                                                                        |
 |--------------|--------------------------------------------------------------------------------------------------------------------|
@@ -153,11 +163,8 @@ Please visit - https://secure-robots.eu/fellows/bothe/eda/ to download the data.
 | con_match    | Flag to indicate EDAs matched based on context models.                                                             |
 | match        | Flag to indicate EDAs matched based on confidence ranking.                                                         |
 
-
-
-### The files
-- ```annotated_eda_data/eda_iemocap_no_utts_dataset.csv``` - contains the EDAs in IEMOCAP data, without utterances.
-- ```annotated_eda_data/eda_meld_emotion_dataset.csv``` - contains the EDAs in meld data, they are staked (train, dev, test).
+</p>
+</details>
 
 
 ## Running the scripts
