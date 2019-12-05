@@ -188,25 +188,28 @@ given that models exists they will be updated soon.
 Paper explaining the process of dialogue act annotation:
 
 C. Bothe, C. Weber, S. Magg, S. Wermter. 
-Enriching Existing Conversational Emotion Datasets with Dialogue Acts using Neural Annotators
+_Enriching Existing Conversational Emotion Datasets with Dialogue Acts using Neural Annotators._
 (LREC 2020, submitted)
+https://secure-robots.eu/fellows/bothe/EDAs/
 
 The original work of datasets:
 
 -IEMOCAP:
 
 Busso, C., Bulut, M., Lee, C.-C., Kazemzadeh, A., Mower, E., Kim, S., Chang, J. N., Lee, S., and Narayanan, S. S. 
-IEMOCAP: Interactive emotional dyadic motion capture database.
+_IEMOCAP: Interactive emotional dyadic motion capture database._
 (Language Resources and Evaluation 2008)
+https://sail.usc.edu/iemocap/
 
 -MELD:
 
 S. Poria, D. Hazarika, N. Majumder, G. Naik, E. Cambria, R. Mihalcea. 
-MELD: A Multimodal Multi-Party Dataset for Emotion Recognition in Conversation. 
-(ACL 2019).
+_MELD: A Multimodal Multi-Party Dataset for Emotion Recognition in Conversation._ 
+(ACL 2019)
+https://affective-meld.github.io/
 
 Chen, S.Y., Hsu, C.C., Kuo, C.C. and Ku, L.W. 
-EmotionLines: An Emotion Corpus of Multi-Party Conversations. 
-(arXiv preprint arXiv:1802.08379 2018).
+_EmotionLines: An Emotion Corpus of Multi-Party Conversations._
+(arXiv preprint arXiv:1802.08379 2018)
 
 
