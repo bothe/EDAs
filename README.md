@@ -47,6 +47,8 @@ in the particular dialogue acts, please see the graph below from IEMOCAP EDAs:
 
 See [live plot](https://chart-studio.plot.ly/~bothe/3/) with Plot.ly
 
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~bothe/1.embed"></iframe>
+
 or bar diagrams (as in the paper):
 
 ![All Combined Bars for IEMOCAP and MELD](figures/bar_diagrams.png)
