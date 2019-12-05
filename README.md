@@ -43,7 +43,10 @@ dialogue acts and emotional states in natural-conversational language.
 Visualizing co-occurrence of utterances with emotion states 
 in the particular dialogue acts, please see the graph below from IEMOCAP EDAs:
 <figure class="video_container">
-<iframe src="//plot.ly/~bothe/3.embed"></iframe>
+<div>
+    <a href="https://plot.ly/~bothe/3/?share_key=g6BgCl1h7H2rUugLXuoAeg" target="_blank" title="iemocap - emotion - with normalized number of utterances" style="display: block; text-align: center;"><img src="https://plot.ly/~bothe/3.png?share_key=g6BgCl1h7H2rUugLXuoAeg" alt="iemocap - emotion - with normalized number of utterances" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="bothe:3" sharekey-plotly="g6BgCl1h7H2rUugLXuoAeg" src="https://plot.ly/embed.js" async></script>
+</div>
 </figure>
 
 ![IEMOCAP Emotion](figures/iemocap_sankey_emotino_for_html.png)
