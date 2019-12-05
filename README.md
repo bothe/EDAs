@@ -168,6 +168,10 @@ Please visit - https://secure-robots.eu/fellows/bothe/eda/ to download the data.
 
 ## Running the scripts
 
+In case, if you want to reproduce the python environment used for the entire project, 
+please find the  ```conda_env/environment.yml``` file
+which can be maneged via conda (anaconda or miniconda).
+
 1. Run ```dia_act_meld_ensemble.py``` or ```dia_act_mocap_ensemble.py``` for respective data,
  to generate and calculate the reliability metrics ensemble of the dialogue acts given that all the labels are stored in ```model_output_labels``` directory.
 
