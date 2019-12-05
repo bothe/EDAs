@@ -40,15 +40,17 @@ Neutral, Surprise and Fear.
 
 Our analysis on EDAs reveal association between 
 dialogue acts and emotional states in natural-conversational language. 
-Please see the graph below:
+Please see the graph below from IEMOCAP EDAs:
 
-![Meld Emotion](figures/meld_sankey_emotion.png)
+![IEMOCAP Emotion](figures/iemocap_sankey_emotion.png)
 
 
 
 ## Paper
-The paper explaining these dataset can be found - https://arxiv.org/pdf/xxxx.xxxxx.pdf
-(will be available soon)
+The pre-print of the article (submitted to LREC 2020) explaining these dataset can be found at - 
+https://arxiv.org/abs/1912.00819
+
+
 
 ## Download the final annotated data
 Please visit - https://secure-robots.eu/fellows/bothe/eda/ to download the data.
