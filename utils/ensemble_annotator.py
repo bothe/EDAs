@@ -27,7 +27,7 @@ def convert_predictions_to_indices(eda1, eda2, eda3, eda4, eda5, tags):
 def ensemble_eda_annotation(eda1, eda2, eda3, eda4, eda5,
                             eda1_conf, eda2_conf, eda3_conf, eda4_conf, eda5_conf,
                             utt_speaker, utterances, utt_id, utt_emotion,
-                            sentiment_labels=[], meld_data=True,
+                            sentiment_labels=[], meld_data=True, is_emotion=True,
                             file_name='meld_emotion', write_final_csv=True, write_utterances=True):
     if write_final_csv:
         fieldnames = ['speaker', 'utt_id', 'utterance', 'emotion', 'sentiment',
@@ -110,6 +110,11 @@ def ensemble_eda_annotation(eda1, eda2, eda3, eda4, eda5,
         else:
             sentiment = ''
 
+        if is_emotion:
+            emotion = utt_emotion[i]
+        else:
+            emotion = ''
+
         # We would do this for IEMOCAP
         if write_utterances:
             utterance = utterances[i]
@@ -118,7 +123,7 @@ def ensemble_eda_annotation(eda1, eda2, eda3, eda4, eda5,
 
         utt_info_row = {'speaker': utt_speaker[i].encode("utf-8"), 'utt_id': utt_id[i],
                         'utterance': utterance.encode("utf-8"),
-                        'emotion': utt_emotion[i], 'sentiment': sentiment,
+                        'emotion': emotion, 'sentiment': sentiment,
 
                         'eda1': str(eda1[i]), 'eda2': str(eda2[i]), 'eda3': str(eda3[i]),
                         'eda4': str(eda4[i]), 'eda5': str(eda5[i]), 'EDA': matched_element,
