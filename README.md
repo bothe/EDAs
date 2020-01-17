@@ -203,7 +203,7 @@ or just pass flag ```is_emotion=False``` in ```ensemble_eda_annotation()``` func
 *However, it is fully automated and hosted via 
 Uni-Hamburg, Informatik web servers.*
 
-*Tried to send, at leat 500 utterances, if it is above that number, 
+*Try to send, not more than 500 utterances, if it is above that number, 
 server might take long to respond, hence it is recommended 
 to contact author [bothe] for your query.*
 

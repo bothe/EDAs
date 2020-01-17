@@ -1,0 +1,7 @@
+speaker,utt_id,utterance,emotion,sentiment,eda1,eda2,eda3,eda4,eda5,EDA,all_match,con_match,match
+b'A',A,"b""I don't know, """,neutral,,h,sd,h,sd,h,h,AllNotMatch,ConMatch_eda5_eda3_strong,NotMatch
+b'B',B,b'Where did you go?',surprise,,qw,qw,qw,qw,qw,qw,AllMatch,NotConMatch,NotMatch
+b'A',A,b'What?',surprise,,br,br,br,qw,br,br,AllNotMatch,ConMatch_eda5_eda3_strong,NotMatch
+b'B',B,b' Where did you go?',angry,,qw,qw,qw,qw,qw,qw,AllMatch,NotConMatch,NotMatch
+b'A',A,b'I went to University.',frustration,,sd,sd,sd,sd,sd,sd,AllMatch,NotConMatch,NotMatch
+b'B',B,b'Uh-huh.',neutral,,b,b,b,b,b,b,AllMatch,NotConMatch,NotMatch
