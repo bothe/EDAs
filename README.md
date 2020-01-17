@@ -186,6 +186,28 @@ Currently, all the predictions are available in the ```model_output_labels``` di
 given that models exists they will be updated soon.
 
 
+## Annotate your own conversational data: Server API
+
+In case, you want to annotate the conversational data, 
+please find the  ```dialogue_act_annotator.py``` file,
+which contains a client example for sending the requests to the server API
+that takes care to generate utterance representation and make the predictions.
+
+You just need to arrange ```utterances``` into list along with other 
+lists such as ```speaker```, ```utt_id``` and ```emotion``` 
+(it is optional, if you have any other annotation per utterance, 
+or just pass flag ```is_emotion=False``` in ```ensemble_eda_annotation()``` function.). 
+
+*This API is not fully tested, hence send the requests at your own risk!*
+
+*However, it is fully automated and hosted via 
+Uni-Hamburg, Informatik web servers.*
+
+*Tried to send, at leat 500 utterances, if it is above that number, 
+server might take long to respond, hence it is recommended 
+to contact author [bothe] for your query.*
+
+
 ## Referring to the work
 
 Paper explaining the process of dialogue act annotation:

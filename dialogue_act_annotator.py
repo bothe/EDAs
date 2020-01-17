@@ -29,5 +29,5 @@ print(f_kappa_score_text)
 # Generate final file of annotations; contains "xx" label for unknown/corrections of EDAs
 row = ensemble_eda_annotation(non_con_out, mean_non_con_out, con_out, mean_con_out, top_con_out, non_con_out_confs,
                               mean_non_con_out_confs, con_out_confs, mean_con_out_confs, top_con_out_confs, speaker_id,
-                              utterances, speaker_id, emotion, sentiment_labels=[], meld_data=False,
+                              utterances, speaker_id, emotion, sentiment_labels=[], meld_data=False, is_emotion=True,
                               file_name='your_data_name', write_final_csv=True, write_utterances=True)
