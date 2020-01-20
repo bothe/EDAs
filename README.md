@@ -43,15 +43,23 @@ dialogue acts and emotional states in natural-conversational language.
 Visualizing co-occurrence of utterances with emotion states 
 in the particular dialogue acts, please see the graph below from IEMOCAP EDAs:
 
-![IEMOCAP Emotion](figures/iemocap_sankey_emotino_for_html.png)
+![IEMOCAP Emotion](figures/iemocap_EDAs.png)
 
-See live plot [IEMOCAP EDAs](https://chart-studio.plot.ly/~bothe/3/) thanks to Plot.ly
+See live plots/graphs (thanks to Plot.ly):
+[IEMOCAP Emotion Sankey](https://chart-studio.plot.ly/~bothe/3), 
+[MELD Emotion Sankey](https://chart-studio.plot.ly/~bothe/7), and 
+[MELD Sentiment Sankey](https://chart-studio.plot.ly/~bothe/11).
 
-or bar diagrams (as in the paper):
+
+or bar diagram (as in the paper):
 
 ![All Combined Bars for IEMOCAP and MELD](figures/bar_diagrams.png)
 
 IE: IEMOCAP, ME: MELD Emotion and MS: MELD Sentiment.
+
+See separated bar graphs in figures: [IEMOCAP Emotion Bars](figures/iemocap_bars_emotion.png), 
+[MELD Emotion Bars](figures/meld_bars_emotion.png), and [MELD Sentiment Bars](figures/meld_bars_sentiment.png).
+
 
 <details><summary><b>Click for the Names and statistics of annotated Dialogue Acts in EDAs</b></summary>
 <p>
@@ -116,13 +124,6 @@ IEMO is for IEMOCAP.
 </p>
 </details>
 
-See bigger size graphs in figures: 
-[IEMOCAP Emotion Sankey](https://chart-studio.plot.ly/~bothe/3), 
-[MELD Emotion Sankey](https://chart-studio.plot.ly/~bothe/7), and 
-[MELD Sentiment Sankey](https://chart-studio.plot.ly/~bothe/11).
-
-See bar graphs in figures: [IEMOCAP Emotion Bars](figures/iemocap_bars_emotion.png), 
-[MELD Emotion Bars](figures/meld_bars_emotion.png), and [MELD Sentiment Bars](figures/meld_bars_sentiment.png).
 
 **These graphs can be generated using ```read_annotated_..._data.py``` applications**
 
