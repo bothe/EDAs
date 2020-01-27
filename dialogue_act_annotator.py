@@ -57,7 +57,7 @@ try:
                                   speaker_id,
                                   utterances, speaker_id, emotion, sentiment_labels=[], meld_data=False,
                                   is_emotion=is_emotion,
-                                  file_name='your_data_name_', write_final_csv=True, write_utterances=True)
+                                  file_name='your_data_name', write_final_csv=True, write_utterances=True)
 
 except json.decoder.JSONDecodeError:
     print("The given LINK might be broken if the server is down - so try again or contact author")
