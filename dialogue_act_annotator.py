@@ -5,6 +5,8 @@ import requests
 from utils.da_annotator_helper import lists_to_text, results_from_text_to_lists
 from utils.ensemble_annotator import ensemble_eda_annotation
 
+your_data_name = "your_data_name"
+
 # your lists might look like these ones
 example1 = {"speaker_ids": ["A", "B", "A", "B", "A", "B"],
             "utterances": ["I don't know, ", "Where did you go?", "What?", " Where did you go?",
@@ -31,6 +33,7 @@ example2 = {"speaker_ids": ["A", "B", "A", "B", "A", "B", "A"],
 
 # Switch between the examples
 example = example2
+# your lists might look like these ones
 speaker_ids, utterances, utt_ids = example['speaker_ids'], example['utterances'], example['utt_ids']
 is_emotion = example["is_emotion"]
 emotions = example['emotions']
@@ -57,7 +60,7 @@ try:
                                   speaker_id,
                                   utterances, speaker_id, emotion, sentiment_labels=[], meld_data=False,
                                   is_emotion=is_emotion,
-                                  file_name='your_data_name', write_final_csv=True, write_utterances=True)
+                                  file_name=your_data_name, write_final_csv=True, write_utterances=True)
 
 except json.decoder.JSONDecodeError:
     print("The given LINK might be broken if the server is down - so try again or contact author")
