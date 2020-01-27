@@ -6,12 +6,34 @@ from utils.da_annotator_helper import lists_to_text, results_from_text_to_lists
 from utils.ensemble_annotator import ensemble_eda_annotation
 
 # your lists might look like these ones
-speaker_ids = ["A", "B", "A", "B", "A", "B"]
-utterances = ["I don't know, ", "Where did you go?", "What?", " Where did you go?", "I went to University.", "Uh-huh."]
-utt_ids = ["1", "2", " 3", "4", "5", "6"]
-# this is non-mandatory field or list (if you have your own other labels; feel free to edit ensemble_eda_annotation())
-# or just pass is_emotion=False
-emotions = ["neutral", "surprise", "surprise", "angry", "frustration", "neutral"]
+example1 = {"speaker_ids": ["A", "B", "A", "B", "A", "B"],
+            "utterances": ["I don't know, ", "Where did you go?", "What?", " Where did you go?",
+                           "I went to University.", "Uh-huh."],
+            "utt_ids": ["1", "2", " 3", "4", "5", "6"],
+            "emotions": ["neutral", "surprise", "surprise", "angry", "frustration", "neutral"],
+            "is_emotion": True}
+# "emotions" is a non-mandatory field (if you have your own other labels; feel free to edit ensemble_eda_annotation())
+# or just pass is_emotion=False that would reflect in "ensemble_eda_annotation()" function below
+
+utterances_ex2 = """So it's interesting, though. 
+It's a very complex, uh, situation to go into space. 
+Oh, yeah. 
+You never think about that, do you really? 
+Yeah. 
+I would think it would be harder to get up than it would be.. 
+Yeah."""
+
+example2 = {"speaker_ids": ["A", "B", "A", "B", "A", "B", "A"],
+            "utterances": utterances_ex2.split('\n'),
+            "utt_ids": ["1", "2", " 3", "4", "5", "6", "7"],
+            "emotions": ["" for item in utterances_ex2.split('\n')],
+            "is_emotion": False}
+
+# Switch between the examples
+example = example2
+speaker_ids, utterances, utt_ids = example['speaker_ids'], example['utterances'], example['utt_ids']
+is_emotion = example["is_emotion"]
+emotions = example['emotions']
 
 # encode the lists into one long text to send over the server
 text = lists_to_text(speaker_ids, utterances, utt_ids, emotions)
@@ -34,8 +56,8 @@ try:
                                   mean_non_con_out_confs, con_out_confs, mean_con_out_confs, top_con_out_confs,
                                   speaker_id,
                                   utterances, speaker_id, emotion, sentiment_labels=[], meld_data=False,
-                                  is_emotion=True,
-                                  file_name='your_data_name', write_final_csv=True, write_utterances=True)
+                                  is_emotion=is_emotion,
+                                  file_name='your_data_name_', write_final_csv=True, write_utterances=True)
 
 except json.decoder.JSONDecodeError:
     print("The given LINK might be broken if the server is down - so try again or contact author")

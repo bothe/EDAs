@@ -1,0 +1,8 @@
+speaker,utt_id,utterance,emotion,sentiment,eda1,eda2,eda3,eda4,eda5,EDA,all_match,con_match,match
+b'A',A,"b""So it's interesting, though. """,,,sv,sv,sv,sv,sv,sv,AllMatch,NotConMatch,NotMatch
+b'B',B,"b""It's a very complex, uh, situation to go into space. """,,,sv,sv,sv,sv,sv,sv,AllMatch,NotConMatch,NotMatch
+b'A',A,"b'Oh, yeah. '",,,b,b,b,b,b,b,AllMatch,NotConMatch,NotMatch
+b'B',B,"b'You never think about that, do you really? '",,,qy,qy,qy,qy,qy,qy,AllMatch,NotConMatch,NotMatch
+b'A',A,b'Yeah. ',,,b,b,ny,ny,ny,ny,AllNotMatch,ConMatch,NotMatch
+b'B',B,b'I would think it would be harder to get up than it would be.. ',,,sv,sv,sv,sv,sv,sv,AllMatch,NotConMatch,NotMatch
+b'A',A,b'Yeah.',,,b,b,b,b,b,b,AllMatch,NotConMatch,NotMatch
