@@ -82,6 +82,10 @@ def ensemble_eda_annotation(eda1, eda2, eda3, eda4, eda5,
             con_match = "ConMatch_eda4_eda3_con"
             matched_element = eda4[i]
             con_matches += 1
+        elif eda1[i] == eda2[i] and eda1[i] in [eda5[i], eda4[i], eda3[i]]:
+            con_match = "ConMatch_eda1_eda2_1con"
+            matched_element = eda1[i]
+            con_matches += 1
 
         # None of above resulted any label, rank the confidence values
         else:
