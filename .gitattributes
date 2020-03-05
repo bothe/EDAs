@@ -1,2 +1,4 @@
 README.md linguist-vendored
 Annotated_EDA_data/* linguist-vendored
+conda_env/* linguist-vendored
+IEMOCAP/mocap_dataset_without_utterances.csv linguist-vendored
