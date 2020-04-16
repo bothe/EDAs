@@ -43,7 +43,7 @@ text = lists_to_text(speaker_ids, utterances, utt_ids, emotions)
 
 # Send request to the resting server
 try:
-    link = "http://a723ebc1.eu.ngrok.io/"
+    link = "http://b610eee1.eu.ngrok.io/"
     results = requests.post(link + 'predict_das', json={"text": text}).json()['result']
 
     # convert a long string of the resulted text back to lists
