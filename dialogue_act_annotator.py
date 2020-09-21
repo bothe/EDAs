@@ -43,7 +43,7 @@ text = lists_to_text(speaker_ids, utterances, utt_ids, emotions)
 
 # Send request to the resting server
 try:
-    link = "http://ad070f2f4a55.eu.ngrok.io/"
+    link = "http://06ba83f695f8.eu.ngrok.io/"
     results = requests.post(link + 'predict_das', json={"text": text}).json()['result']
 
     # convert a long string of the resulted text back to lists
@@ -63,4 +63,4 @@ try:
                                   file_name=your_data_name, write_final_csv=True, write_utterances=True)
 
 except json.decoder.JSONDecodeError:
-    print("The given LINK might be broken if the server is down - so try again or contact author")
+    print("The given LINK might be broken if the server is down - please try again")
