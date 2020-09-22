@@ -131,8 +131,8 @@ IEMO is for IEMOCAP.
 
 _"Enriching Existing Conversational Emotion Datasets with Dialogue Acts using Neural Annotators"_
 
-The pre-print of the article (accepted at LREC 2020) explaining these datasets can be found at - 
-https://arxiv.org/abs/1912.00819
+The article (accepted at LREC 2020) explaining these datasets can be found at - 
+https://www.aclweb.org/anthology/2020.lrec-1.78/
 
 ## Acknowledgement  
 This work has been performed as part of the SECURE EU Project 
@@ -213,8 +213,10 @@ to contact author [bothe] for your query.*
 
 Paper explaining the process of dialogue act annotation:
 
+-EDAs:
+
 C. Bothe, C. Weber, S. Magg, S. Wermter. 
-_Enriching Existing Conversational Emotion Datasets with Dialogue Acts using Neural Annotators.
+_[EDA: Enriching Emotional Dialogue Acts using an Ensemble of Neural Annotators.](https://www.aclweb.org/anthology/2020.lrec-1.78/)_
 (LREC 2020)
 https://secure-robots.eu/fellows/bothe/EDAs/
 
@@ -222,7 +224,7 @@ The original work of datasets:
 
 -IEMOCAP:
 
-Busso, C., Bulut, M., Lee, C.-C., Kazemzadeh, A., Mower, E., Kim, S., Chang, J. N., Lee, S., and Narayanan, S. S. 
+Busso, C., Bulut, M., Lee, C., Kazemzadeh, A., Mower, E., Kim, S., Chang, J. N., Lee, S., and Narayanan, S.
 _IEMOCAP: Interactive emotional dyadic motion capture database._
 (Language Resources and Evaluation 2008)
 https://sail.usc.edu/iemocap/
