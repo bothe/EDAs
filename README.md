@@ -194,6 +194,9 @@ please find the  ```dialogue_act_annotator.py``` file,
 which contains a client example for sending the requests to the server API
 that takes care to generate utterance representation and make the predictions.
 
+In case the server is not working, host your own server using 
+the repository [bothe/dialogue-act-recognition](https://github.com/bothe/dialogue-act-recognition).
+
 You just need to arrange ```utterances``` into list along with other 
 lists such as ```speaker```, ```utt_id``` and ```emotion``` 
 (it is optional, if you have any other annotation per utterance, 
